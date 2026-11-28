@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiador de color</title>
+    <link rel="stylesheet" href="../tailwind/output.css">
+</head>
+
+<body class="bg-[#ccc] flex justify-center">
+    <div class="w-100 h-100 bg-white rounded-lg self-center p-2">
+        <div class="flex flex-col gap-5">
+            <div id="card" class="border rounded-md flex flex-col gap-2 p-3">
+                <h1 class="text-2xl">Lorem ipsum dolor</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo debitis labore ducimus maiores
+                    dolore?
+                    Consequuntur, numquam asperiores delectus illum beatae corrupti! Perspiciatis consequatur quod iste,
+                    repellendus ipsa totam aperiam ipsum?</p>
+            </div>
+            <div class="flex flex-col">
+                <label for="colors">Selecciona un color para la tarjeta</label>
+                <select name="colors" id="colors" class="flex mt-3 self-start border-2 rounded-xl px-1">
+                    <option value="" disabled selected>Ver opciones</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="amarillo">Amarillo</option>
+                    <option value="rosa">Rosa</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
