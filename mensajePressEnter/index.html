@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje al presionar Enter</title>
+    <link rel="stylesheet" href="../tailwind/output.css">
+</head>
+
+<body class="bg-white">
+    <div class="flex justify-center content-center">
+        <div class="h-100 w-100 bg-blue-300 rounded-lg flex flex-col justify-between items-center">
+            <div>
+                <input type="text" id="ingresarTarea" class="bg-white border-2 rounded-md mt-2"
+                    placeholder="Escribe una tarea">
+            </div>
+            <div class="w-10/12 h-10/12 ">
+                <h1 class="mb-1 text-xl"><strong>Resultado</strong></h1>
+                <div class="w-12/12 h-10/12 bg-white border-2 rounded-md overflow-y-auto px-2">
+                    <ul id="resultado" class="list-none wrap-break-word">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
