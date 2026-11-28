@@ -1,0 +1,23 @@
+{
+  "name": "retosdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustJD1901/retosDom.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JustJD1901/retosDom/issues"
+  },
+  "homepage": "https://github.com/JustJD1901/retosDom#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}

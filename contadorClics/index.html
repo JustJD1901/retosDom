@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Clics</title>
+    <link rel="stylesheet" href="../tailwind/output.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="bg-[#ccc] flex justify-center">
+    <div class="w-100 h-100 mt-16 bg-white rounded-lg flex flex-col gap-12 justify-center items-center">
+            <div class="bg-[#ccc] p-6 rounded-lg">
+                <p>Número de clicks: <span id="contadorClicks">0</span></p>
+            </div>
+            <div class="bg-[#ccc] flex justify-center align-bottom gap-6 p-6 rounded-lg">
+                <div>
+                    <button id="btnSuma" class="bg-green-400 text-white px-3 py-2 rounded-lg">Sumar click</button>
+                </div>
+                <div>
+                    <button id="btnReinicio" class="bg-orange-400 text-white px-3 py-2 rounded-lg">Reiniciar contador</button>
+                </div>
+            </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
